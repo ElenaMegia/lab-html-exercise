@@ -192,3 +192,65 @@ button:hover {
     margin: 20px;
     font-size: 1em;
 }
+
+.features-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color:#fff;
+}
+
+.feature-box {
+
+    padding: 20px;
+    max-width: 250px;
+    margin-bottom: 20px;
+    position: relative;
+
+}
+.feature-box img.icon {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+.create-org-btn {
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.feature-icon {
+    width: 50px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.feature-title {
+    color: #ED1C24; /* Color for the heading text */
+    margin-bottom: 15px; /* Space between title and paragraph */
+}
+
+.create-org-btn button {
+    background-color: black;
+    color: white;
+    padding: 20px 200px;
+    border: 2px solid black;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    cursor: pointer;
+    position: relative;
+}
+
+
+
+@media (max-width: 768px) {
+    .features-section {
+        flex-direction: column;
+        align-items: center;
+    }
+}
