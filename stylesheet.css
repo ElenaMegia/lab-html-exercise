@@ -216,8 +216,7 @@ button:hover {
     width: 50px;
     height: auto;
     position: absolute;
-    top: -10px;
-    left: -10px;
+
 }
 .create-org-btn {
     text-align: center;
@@ -228,7 +227,7 @@ button:hover {
 .feature-icon {
     width: 50px;
     height: auto;
-    margin-bottom: 15px;
+
 }
 
 .feature-title {
@@ -238,6 +237,7 @@ button:hover {
 
 .create-org-btn button {
     background-color: black;
+    font-weight: bold;
     color: white;
     padding: 20px 200px;
     border: 2px solid black;
@@ -248,9 +248,3 @@ button:hover {
 
 
 
-@media (max-width: 768px) {
-    .features-section {
-        flex-direction: column;
-        align-items: center;
-    }
-}
